@@ -1,3 +1,5 @@
+import numpy as np
+from scipy import stats
 from bookstore_associations import *
 
 scm = BookSCM(random_seed=45) # instantiate SCM
